@@ -1,17 +1,31 @@
 import React, { useState } from 'react';
-import { Button, TextField } from '@material-ui/core';
-import { SearchOutlined } from '@material-ui/icons';
+import { Button, IconButton, TextField } from '@material-ui/core';
+import { Add, Remove, SearchOutlined } from '@material-ui/icons';
 import styled from 'styled-components';
 
 interface Props {
+  advancedSearchState: boolean;
+  advancedSearchCallback: () => void;
   searchCallback: (query: string) => void;
 }
+
+// TODO: change icon on click
+const AdvancedSearchButton = styled(({ active, ...props }) => (
+  <IconButton
+    aria-label="Advanced Search"
+    children={active ? <Remove /> : <Add />}
+    color="primary"
+    edge="start"
+    size="small"
+    variant="outlined"
+    {...props}
+  />
+))``;
 
 const Input = styled(TextField)`
   variant: 'outlined';
   text-align: center;
   color: {inputColor}
-  width: 15rem;
 `;
 
 const RowLayout = styled.div`
@@ -20,11 +34,23 @@ const RowLayout = styled.div`
   justify-content: center;
 `;
 
-const SearchButton = styled(Button)`
+const SearchButton = styled((props) => (
+  <Button
+    color="primary"
+    endIcon={<SearchOutlined />}
+    label="Search"
+    variant="contained"
+    {...props}
+  />
+))`
   margin-left: 1.5rem;
 `;
 
-const SearchInput = ({ searchCallback }: Props) => {
+const SearchInput = ({
+  advancedSearchState,
+  advancedSearchCallback,
+  searchCallback,
+}: Props) => {
   const [searchQuery, setSearchQuery] = useState('');
 
   const saveSearchQuery = (event: React.ChangeEvent<HTMLInputElement>) => {
@@ -43,13 +69,16 @@ const SearchInput = ({ searchCallback }: Props) => {
         value={searchQuery}
         variant="outlined"
       />
+      <AdvancedSearchButton
+        active={advancedSearchState}
+        onClick={() => {
+          advancedSearchCallback();
+        }}
+      ></AdvancedSearchButton>
       <SearchButton
-        color="primary"
-        endIcon={<SearchOutlined />}
         onClick={() => {
           searchCallback(searchQuery);
         }}
-        variant="contained"
       >
         Search
       </SearchButton>

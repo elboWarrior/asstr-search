@@ -1,5 +1,4 @@
 import cheerio from 'cheerio';
-// import * as cheerio from 'cheerio';
 
 const asstrParser = () => {
   /******************************** PROPERTIES ********************************/
@@ -12,13 +11,10 @@ const asstrParser = () => {
   return {
     parseResults(asstrPage: string): string[] | null {
       htmlPage = asstrPage;
-      // console.log(htmlPage);
 
       const $ = cheerio.load(htmlPage);
-      // const tables = $('table').slice(2);
       const tableElements = $('td');
       if (!tableElements) throw new Error('Could not find search matches');
-      // const results = tableElements.attr('bgcolor').match(/(#BEC1D2|#BED1E2)/);
       const results = tableElements
         .filter((index: number, element: CheerioElement) => {
           const bgColor = element.attribs['bgcolor'];

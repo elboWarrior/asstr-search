@@ -1,0 +1,686 @@
+[{
+        "id": 0,
+        "category": "Sex and Age",
+        "storyCodes": [{
+                "id": 0,
+                "label": "Male adult | 18+",
+                "description": "Male adult | 18+",
+                "codes": [
+                    "M"
+                ]
+            },
+            {
+                "id": 1,
+                "label": "Male teen | 13-17",
+                "description": "Male teen | 13-17",
+                "codes": [
+                    "m",
+                    "t"
+                ]
+            },
+            {
+                "id": 2,
+                "label": "Male child | 12-",
+                "description": "Male child | 12-",
+                "codes": [
+                    "b"
+                ]
+            },
+            {
+                "id": 3,
+                "label": "Female adult | 18+",
+                "description": "Female adult | 18+",
+                "codes": [
+                    "F"
+                ]
+            },
+            {
+                "id": 4,
+                "label": "Female teen | 13-17",
+                "description": "Female teen | 13-17",
+                "codes": [
+                    "f"
+                ]
+            },
+            {
+                "id": 5,
+                "label": "Female child | 12-",
+                "description": "Female child | 12-",
+                "codes": [
+                    "g"
+                ]
+            },
+            {
+                "id": 6,
+                "label": "Female robot adult - 18+",
+                "description": "Female robot adult - 18+",
+                "codes": [
+                    "Fembot"
+                ]
+            },
+            {
+                "id": 7,
+                "label": "Female robot teen - 18-",
+                "description": "Female robot teen - 18-",
+                "codes": [
+                    "fembot"
+                ]
+            },
+            {
+                "id": 8,
+                "label": "Hermaphrodite adult | 18+",
+                "description": "Hermaphrodite adult | 18+",
+                "codes": [
+                    "H"
+                ]
+            },
+            {
+                "id": 9,
+                "label": "Hermaphrodite teen | 18-",
+                "description": "Hermaphrodite teen | 18-",
+                "codes": [
+                    "h"
+                ]
+            },
+            {
+                "id": 10,
+                "label": "Alien",
+                "description": "Sex involving someone, or something, from off Earth.",
+                "codes": [
+                    "alien"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 1,
+        "category": "Willingness",
+        "storyCodes": [{
+                "id": 100,
+                "label": "Blackmail",
+                "description": "Gaining sex through threat of exposure.",
+                "codes": [
+                    "M"
+                ]
+            },
+            {
+                "id": 101,
+                "label": "Consensual",
+                "description": "The sex is consensual. This should mean that all the sex is consensual, but some authors use \"cons nc\" to mean that only some is.",
+                "codes": [
+                    "cons",
+                    "con"
+                ]
+            },
+            {
+                "id": 102,
+                "label": "Mind-control",
+                "description": "Mind-control is a big subgenre.",
+                "codes": [
+                    "mc"
+                ]
+            },
+            {
+                "id": 103,
+                "label": "Non-consensual",
+                "description": "Sex is non-consensual. This is rape in law, but the style may be different.",
+                "codes": [
+                    "nc"
+                ]
+            },
+            {
+                "id": 104,
+                "label": "Rape",
+                "description": "Sex involves rape.",
+                "codes": [
+                    "rape"
+                ]
+            },
+            {
+                "id": 105,
+                "label": "Reluctant",
+                "description": "The partner says no, but loves it when he/she is raped.",
+                "codes": [
+                    "reluc"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "category": "Dominance, submission, pain",
+        "storyCodes": [{
+                "id": 200,
+                "label": "Bondage",
+                "description": "Bondage and discipline",
+                "codes": [
+                    "bd",
+                    "bondage"
+                ]
+            },
+            {
+                "id": 201,
+                "label": "Caution",
+                "description": "Something in the story might offend (or even sicken) you, but the author isn 't telling you what.",
+                "codes": [
+                    "caution"
+                ]
+            },
+            {
+                "id": 202,
+                "label": "Cock & ball",
+                "description": "Cock and ball torture.",
+                "codes": [
+                    "cbt"
+                ]
+            },
+            {
+                "id": 203,
+                "label": "Dom/sub",
+                "description": "Refers to dominance and submission.",
+                "codes": [
+                    "ds",
+                    "d/s",
+                    "dom"
+                ]
+            },
+            {
+                "id": 204,
+                "label": "Fem dom",
+                "description": "A dominant female",
+                "codes": [
+                    "Fdom"
+                ]
+            },
+            {
+                "id": 205,
+                "label": "Male dom",
+                "description": "A dominant male",
+                "codes": [
+                    "Mdom"
+                ]
+            },
+            {
+                "id": 206,
+                "label": "Humiliation",
+                "description": "Humiliation",
+                "codes": [
+                    "humil"
+                ]
+            },
+            {
+                "id": 207,
+                "label": "Rough",
+                "description": "Consensual rough sex, not always SM.",
+                "codes": [
+                    "rough"
+                ]
+            },
+            {
+                "id": 208,
+                "label": "Sadomasochism",
+                "description": "Sadomasochism, pain for the pleasure of both.",
+                "codes": [
+                    "sm"
+                ]
+            },
+            {
+                "id": 209,
+                "label": "Sadism",
+                "description": "\"Just\" inflicting pain.",
+                "codes": [
+                    "M"
+                ]
+            },
+            {
+                "id": 210,
+                "label": "Snuff",
+                "description": "Killing which is meant to arouse you.",
+                "codes": [
+                    "snuff"
+                ]
+            },
+            {
+                "id": 211,
+                "label": "Spanking",
+                "description": "Spanking, mild SM.",
+                "codes": [
+                    "span",
+                    "spank"
+                ]
+            },
+            {
+                "id": 212,
+                "label": "Torture",
+                "description": "Physical torture",
+                "codes": [
+                    "tort"
+                ]
+            },
+            {
+                "id": 213,
+                "label": "Verbal abuse",
+                "description": "Abusive and dirty language",
+                "codes": [
+                    "va"
+                ]
+            },
+            {
+                "id": 214,
+                "label": "Violence",
+                "description": "Violence, not necessarily connected to the sex",
+                "codes": [
+                    "viol"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "category": "Relationships",
+        "storyCodes": [{
+                "id": 300,
+                "label": "Cheat",
+                "description": "Married or committed people having sex outside of the commitment, cheating on their partner, as distinct from swinging.",
+                "codes": [
+                    "cheat"
+                ]
+            },
+            {
+                "id": 301,
+                "label": "Cuckold",
+                "description": "The story involves the feeling of humiliation of a man's knowing that another has replaced him in his wife 's bed.",
+                "codes": [
+                    "cuckold"
+                ]
+            },
+            {
+                "id": 302,
+                "label": "Incest",
+                "description": "Sex between members of the same family.",
+                "codes": [
+                    "inc"
+                ]
+            },
+            {
+                "id": 303,
+                "label": "Interracial",
+                "description": "Sex between members of different races.",
+                "codes": [
+                    "interr",
+                    "ir",
+                    "i/r"
+                ]
+            },
+            {
+                "id": 304,
+                "label": "Romantic",
+                "description": "Romantic, which means that all the sex is consensual (although some writers use this code very strangely) and that at least some of it stems from the love that one of the characters feels for another.",
+                "codes": [
+                    "rom"
+                ]
+            },
+            {
+                "id": 305,
+                "label": "Wife",
+                "description": "Wife watching: this is participatory cuckoldry.",
+                "codes": [
+                    "wife"
+                ]
+            },
+            {
+                "id": 306,
+                "label": "Wedded lust",
+                "description": "Sex within the marital relationship.",
+                "codes": [
+                    "wl"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "category": "Activities",
+        "storyCodes": [{
+                "id": 400,
+                "label": "Anal",
+                "description": "Anal sex.",
+                "codes": [
+                    "anal"
+                ]
+            },
+            {
+                "id": 401,
+                "label": "Bestiality",
+                "description": "Bestiality, sex with animals.",
+                "codes": [
+                    "best",
+                    "beast",
+                    "zoo"
+                ]
+            },
+            {
+                "id": 402,
+                "label": "Transvestite",
+                "description": "A man dressing as woman.",
+                "codes": [
+                    "cd",
+                    "tv"
+                ]
+            },
+            {
+                "id": 403,
+                "label": "Coprophilia",
+                "description": "Gaining some sort of sexual satisfaction from feces. Also called scatology.",
+                "codes": [
+                    "copr",
+                    "scat"
+                ]
+            },
+            {
+                "id": 404,
+                "label": "Creampie",
+                "description": "One man's ejaculate as sucked out of a woman's vagina and consumed by(usually another) man.",
+                "codes": [
+                    "creampie"
+                ]
+            },
+            {
+                "id": 405,
+                "label": "Enemas",
+                "description": "An injection of fluid by way of the rectum.",
+                "codes": [
+                    "enem"
+                ]
+            },
+            {
+                "id": 406,
+                "label": "Exhibitionism",
+                "description": "The act of exposing private body parts in a public or semi-public context.",
+                "codes": [
+                    "exhib"
+                ]
+            },
+            {
+                "id": 407,
+                "label": "Fisting",
+                "description": "Fisting, insertion of the entire hand into anus or vagina.",
+                "codes": [
+                    "fist"
+                ]
+            },
+            {
+                "id": 408,
+                "label": "Infantilism",
+                "description": "Enjoyment from infant-related things. Pretending to be a baby, wearing diapers, etc.",
+                "codes": [
+                    "inf"
+                ]
+            },
+            {
+                "id": 409,
+                "label": "Necrophilia",
+                "description": "Sex with a dead persoSex with a dead person.",
+                "codes": [
+                    "nec"
+                ]
+            },
+            {
+                "id": 410,
+                "label": "No sex",
+                "description": "There is no intercourse in the story. This is a preemptive code in the sense that it overrides any implication of intercourse by other codes used.",
+                "codes": [
+                    "nosex"
+                ]
+            },
+            {
+                "id": 411,
+                "label": "Oral",
+                "description": "Oral-genital contact",
+                "codes": [
+                    "oral"
+                ]
+            },
+            {
+                "id": 412,
+                "label": "Pedophilia",
+                "description": "Some participants are age 12 or below.",
+                "codes": [
+                    "ped"
+                ]
+            },
+            {
+                "id": 413,
+                "label": "Heavy petting",
+                "description": "Foreplay ranging from breast massage to masturbating one's partner, yet no coïtal contact.",
+                "codes": [
+                    "pett"
+                ]
+            },
+            {
+                "id": 414,
+                "label": "PIV",
+                "description": "\"Penis in vagina\". Straight sex.",
+                "codes": [
+                    "piv"
+                ]
+            },
+            {
+                "id": 415,
+                "label": "Rimming",
+                "description": "Oral-anal contact.",
+                "codes": [
+                    "rim"
+                ]
+            },
+            {
+                "id": 416,
+                "label": "Safe sex",
+                "description": "Protected sex. Usually using a condom or pill during sex so a baby is not conceived, an STD is not transmitted.",
+                "codes": [
+                    "safe"
+                ]
+            },
+            {
+                "id": 417,
+                "label": "Solo",
+                "description": "Masturbation, onanism, etc.",
+                "codes": [
+                    "solo",
+                    "mast"
+                ]
+            },
+            {
+                "id": 418,
+                "label": "Toys",
+                "description": "Vibrators or other adult toys.",
+                "codes": [
+                    "toys"
+                ]
+            },
+            {
+                "id": 419,
+                "label": "Food",
+                "description": "Sex with food.",
+                "codes": [
+                    "veg"
+                ]
+            },
+            {
+                "id": 420,
+                "label": "Vore",
+                "description": "Eating someone alive.",
+                "codes": [
+                    "vore"
+                ]
+            },
+            {
+                "id": 421,
+                "label": "Voyeurism",
+                "description": "A person who derives sexual gratification from observing the naked bodies or sexual acts of others, especially from a secret vantage point.",
+                "codes": [
+                    "voy"
+                ]
+            },
+            {
+                "id": 422,
+                "label": "Water sports",
+                "description": "Sexual activity in which urine is involved.",
+                "codes": [
+                    "ws"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "category": "Various kinks",
+        "storyCodes": [{
+                "id": 500,
+                "label": "BBW",
+                "description": "\"Big Beautiful Women\". Appreciation of fat women.",
+                "codes": [
+                    "BBW",
+                    "bbw"
+                ]
+            },
+            {
+                "id": 501,
+                "label": "Bisexuality",
+                "description": "Bisexuality of one or more characters.",
+                "codes": [
+                    "bi"
+                ]
+            },
+            {
+                "id": 502,
+                "label": "Large breasts",
+                "description": "Abnormally large breasts.",
+                "codes": [
+                    "breast"
+                ]
+            },
+            {
+                "id": 503,
+                "label": "Fat",
+                "description": "Sex involving fat people.",
+                "codes": [
+                    "fat"
+                ]
+            },
+            {
+                "id": 504,
+                "label": "Feet fetish",
+                "description": "Foot or shoe fetish story.",
+                "codes": [
+                    "feet"
+                ]
+            },
+            {
+                "id": 504,
+                "label": "Furry",
+                "description": "Animals with human characteristics.",
+                "codes": [
+                    "furry"
+                ]
+            },
+            {
+                "id": 505,
+                "label": "Giant",
+                "description": "Abnormally large (tall) persons",
+                "codes": [
+                    "giant"
+                ]
+            },
+            {
+                "id": 505,
+                "label": "Hairy",
+                "description": "Hair fetish.",
+                "codes": [
+                    "hair"
+                ]
+            },
+            {
+                "id": 506,
+                "label": "Hirsute",
+                "description": "Natural unshaved genitals and/or armpits.",
+                "codes": [
+                    "hirs"
+                ]
+            },
+            {
+                "id": 507,
+                "label": "Hypnolove",
+                "description": "Consensual hypnotism to increase sexual pleasure of both.",
+                "codes": [
+                    "HYP",
+                    "hyp"
+                ]
+            },
+            {
+                "id": 508,
+                "label": "Lactation",
+                "description": "Playing with human milk.",
+                "codes": [
+                    "lac"
+                ]
+            },
+            {
+                "id": 509,
+                "label": "Menstruation",
+                "description": "Sex during a woman's menstruation",
+                "codes": [
+                    "menstr"
+                ]
+            },
+            {
+                "id": 510,
+                "label": "Pregnancy",
+                "description": "Either impregnation or sex with a pregnant woman.",
+                "codes": [
+                    "preg"
+                ]
+            },
+            {
+                "id": 511,
+                "label": "Size",
+                "description": "Overdeveloped body parts.",
+                "codes": [
+                    "size"
+                ]
+            },
+            {
+                "id": 512,
+                "label": "Transgender",
+                "description": "Men being changed into women (or vice versa).",
+                "codes": [
+                    "tg"
+                ]
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "category": "Other particulars",
+        "storyCodes": [{
+            "id": 600,
+            "label": "",
+            "description": "",
+            "codes": [
+                ""
+            ]
+        }]
+    },
+    {
+        "id": 7,
+        "category": "Special codes",
+        "storyCodes": [{
+            "id": 700,
+            "label": "",
+            "description": "",
+            "codes": [
+                "M"
+            ]
+        }]
+    }
+]

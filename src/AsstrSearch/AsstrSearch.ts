@@ -68,7 +68,6 @@ const asstrSearch = (
       const htmlBody = await getHtmlBody();
       increaseSearchIndex();
       const results = parser.parseResults(htmlBody);
-      console.log('Results: ', results);
       return results;
     },
   };
