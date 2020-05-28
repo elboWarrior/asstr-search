@@ -89,6 +89,22 @@
                 "codes": [
                     "alien"
                 ]
+            },
+            {
+                "id": 11,
+                "label": "Bear",
+                "description": "Hairy male. Usually gay. (Grizzly Adams)",
+                "codes": [
+                    "bear"
+                ]
+            },
+            {
+                "id": 12,
+                "label": "Twink",
+                "description": "Young and hairless-type. Usually gay (Tom Cruise)",
+                "codes": [
+                    "twink"
+                ]
             }
         ]
     },
@@ -554,12 +570,13 @@
             },
             {
                 "id": 502,
-                "label": "Large breasts",
-                "description": "Abnormally large breasts.",
+                "label": "Dream",
+                "description": "Sexual activity during a dream, daydream or sleep.",
                 "codes": [
-                    "breast"
+                    "dream"
                 ]
             },
+
             {
                 "id": 503,
                 "label": "Fat",
@@ -577,7 +594,7 @@
                 ]
             },
             {
-                "id": 504,
+                "id": 505,
                 "label": "Furry",
                 "description": "Animals with human characteristics.",
                 "codes": [
@@ -585,7 +602,7 @@
                 ]
             },
             {
-                "id": 505,
+                "id": 506,
                 "label": "Giant",
                 "description": "Abnormally large (tall) persons",
                 "codes": [
@@ -593,7 +610,7 @@
                 ]
             },
             {
-                "id": 505,
+                "id": 507,
                 "label": "Hairy",
                 "description": "Hair fetish.",
                 "codes": [
@@ -601,7 +618,7 @@
                 ]
             },
             {
-                "id": 506,
+                "id": 508,
                 "label": "Hirsute",
                 "description": "Natural unshaved genitals and/or armpits.",
                 "codes": [
@@ -609,7 +626,7 @@
                 ]
             },
             {
-                "id": 507,
+                "id": 509,
                 "label": "Hypnolove",
                 "description": "Consensual hypnotism to increase sexual pleasure of both.",
                 "codes": [
@@ -618,7 +635,7 @@
                 ]
             },
             {
-                "id": 508,
+                "id": 510,
                 "label": "Lactation",
                 "description": "Playing with human milk.",
                 "codes": [
@@ -626,7 +643,15 @@
                 ]
             },
             {
-                "id": 509,
+                "id": 511,
+                "label": "Large breasts",
+                "description": "Abnormally large breasts.",
+                "codes": [
+                    "breast"
+                ]
+            },
+            {
+                "id": 512,
                 "label": "Menstruation",
                 "description": "Sex during a woman's menstruation",
                 "codes": [
@@ -634,7 +659,7 @@
                 ]
             },
             {
-                "id": 510,
+                "id": 513,
                 "label": "Pregnancy",
                 "description": "Either impregnation or sex with a pregnant woman.",
                 "codes": [
@@ -642,7 +667,7 @@
                 ]
             },
             {
-                "id": 511,
+                "id": 514,
                 "label": "Size",
                 "description": "Overdeveloped body parts.",
                 "codes": [
@@ -650,37 +675,147 @@
                 ]
             },
             {
-                "id": 512,
+                "id": 515,
                 "label": "Transgender",
                 "description": "Men being changed into women (or vice versa).",
                 "codes": [
                     "tg"
+                ]
+            },
+            {
+                "id": 516,
+                "label": "Virgin",
+                "description": "First time intercourse. Can be MM or FF",
+                "codes": [
+                    "1st"
                 ]
             }
         ]
     },
     {
         "id": 6,
-        "category": "Other particulars",
+        "category": "Themes",
         "storyCodes": [{
-            "id": 600,
-            "label": "",
-            "description": "",
-            "codes": [
-                ""
-            ]
-        }]
-    },
-    {
-        "id": 7,
-        "category": "Special codes",
-        "storyCodes": [{
-            "id": 700,
-            "label": "",
-            "description": "",
-            "codes": [
-                "M"
-            ]
-        }]
+                "id": 600,
+                "label": "Biblical",
+                "description": "Biblical. Based on a Bible story.",
+                "codes": [
+                    "bibl"
+                ]
+            },
+            {
+                "id": 601,
+                "label": "Caution",
+                "description": "Something is going on that is not covered by the story codes (or which you want to come as a surprise) but which might reasonably be expected to squick a fair number of people.",
+                "codes": [
+                    "caution"
+                ]
+            },
+            {
+                "id": 602,
+                "label": "College",
+                "description": "College theme.",
+                "codes": [
+                    "coll"
+                ]
+            },
+            {
+                "id": 603,
+                "label": "Filk",
+                "description": "New lyrics for a familiar tune.",
+                "codes": [
+                    "filk"
+                ]
+            },
+            {
+                "id": 604,
+                "label": "Goth",
+                "description": "Gothic (dark) setting.",
+                "codes": [
+                    "goth"
+                ]
+            },
+            {
+                "id": 605,
+                "label": "Historical",
+                "description": "Occurs in the (reasonably distant) past.",
+                "codes": [
+                    "hist"
+                ]
+            },
+            {
+                "id": 606,
+                "label": "High School",
+                "description": "High School theme.",
+                "codes": [
+                    "hs"
+                ]
+            },
+            {
+                "id": 607,
+                "label": "Humor",
+                "description": "Humor. Funny to some.",
+                "codes": [
+                    "humor"
+                ]
+            },
+            {
+                "id": 608,
+                "label": "Job",
+                "description": "Work related theme.",
+                "codes": [
+                    "job"
+                ]
+            },
+            {
+                "id": 609,
+                "label": "Magic",
+                "description": "Not only magic, per se, but also demons, fantasy worlds, etc.",
+                "codes": [
+                    "magic"
+                ]
+            },
+            {
+                "id": 610,
+                "label": "Parody",
+                "description": "Imitation of a style or particular story with the intent to amuse.",
+                "codes": [
+                    "parody"
+                ]
+            },
+            {
+                "id": 611,
+                "label": "Real",
+                "description": "Supposedly true.",
+                "codes": [
+                    "real"
+                ]
+            },
+            {
+                "id": 612,
+                "label": "Sci-Fi",
+                "description": "Science Fiction theme",
+                "codes": [
+                    "ScFi",
+                    "scfi"
+                ]
+            },
+            {
+                "id": 613,
+                "label": "Stroke",
+                "description": "Story is intended to convey only sexual charge without plot development.",
+                "codes": [
+                    "stroke"
+                ]
+            },
+            {
+                "id": 614,
+                "label": "Tragic",
+                "description": "Story ends unhappily.",
+                "codes": [
+                    "tragic"
+                ]
+            }
+        ]
     }
 ]
