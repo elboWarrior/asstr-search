@@ -3,36 +3,46 @@ import StoryCodesCategory from '../types/StoryCodesCategory';
 import StorySizes from '../types/StorySizes';
 import TriState from '../types/TriState';
 
-const AsstrQuery = (
-  query: string,
-  storyCodesCategories: StoryCodesCategory[],
-  sizes: StorySizes
-): string => {
-  const getExcludedQuery = (): string => {
-    const excludedStoryCodes = getStoryCodes(TriState.EXCLUDES);
-    return getStoryCodesQuery(excludedStoryCodes, TriState.EXCLUDES);
-  };
+class AsstrQuery {
+  constructor(
+    private _query: string,
+    private _storyCodesCategories: StoryCodesCategory[],
+    private _sizes: StorySizes
+  ) {}
 
-  const getIncludedQuery = (): string => {
-    const includedStoryCodes = getStoryCodes(TriState.INCLUDES);
-    return getStoryCodesQuery(includedStoryCodes, TriState.INCLUDES);
-  };
+  get query(): string {
+    return (
+      this._query + this.includedQuery + this.excludedQuery + this.sizeQuery
+    );
+  }
 
-  const getSizeQuery = (): string => {
+  private get excludedQuery(): string {
+    const excludedStoryCodes = this.getStoryCodes(TriState.EXCLUDES);
+    return this.getStoryCodesQuery(excludedStoryCodes, TriState.EXCLUDES);
+  }
+
+  private get includedQuery(): string {
+    const includedStoryCodes = this.getStoryCodes(TriState.INCLUDES);
+    return this.getStoryCodesQuery(includedStoryCodes, TriState.INCLUDES);
+  }
+
+  private get sizeQuery(): string {
     let sizeQuery = '';
-    if (sizes.min > sizes.minDefault) sizeQuery += ` minsize:${sizes.min}`;
-    if (sizes.max < sizes.maxDefault) sizeQuery += ` maxsize:${sizes.max}`;
+    if (this._sizes.min > this._sizes.minDefault)
+      sizeQuery += ` minsize:${this._sizes.min}`;
+    if (this._sizes.max < this._sizes.maxDefault)
+      sizeQuery += ` maxsize:${this._sizes.max}`;
     return sizeQuery;
-  };
+  }
 
-  const getStoryCodes = (state: TriState): StoryCodes[] => {
-    const storyCodes = storyCodesCategories.map((category) =>
+  private getStoryCodes = (state: TriState): StoryCodes[] => {
+    const storyCodes = this._storyCodesCategories.map((category) =>
       category.storyCodes.filter((storyCode) => storyCode.state === state)
     );
     return storyCodes.flat();
   };
 
-  const getStoryCodesQuery = (
+  private getStoryCodesQuery = (
     storyCodes: StoryCodes[],
     state: TriState
   ): string => {
@@ -45,8 +55,6 @@ const AsstrQuery = (
     });
     return storyCodesQuery;
   };
-
-  return query + getIncludedQuery() + getExcludedQuery() + getSizeQuery();
-};
+}
 
 export default AsstrQuery;

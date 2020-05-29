@@ -7,3 +7,8 @@
   from = "/asstr-search"
   to = "/.netlify/functions/asstr-search/asstr-search.js"
   status = 200
+
+[[redirects]]
+  from = "/asstr-search-init"
+  to = "/.netlify/functions/asstr-search-init/asstr-search-init.js"
+  status = 200

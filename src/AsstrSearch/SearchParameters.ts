@@ -1,16 +1,8 @@
-export interface SearchParameters {
-  search: string;
+interface SearchParameterds {
+  id: string;
   begin: number;
-  domain: string;
-  appendquote_author?: string;
-  appendquote_title?: string;
-  append_summary?: string;
-  append_chapter?: string;
-  appendquote_universe?: string;
-  append?: Array<string>;
   number: number;
-  sample?: number;
-  span: string;
+  sample: number;
 }
 
-export default SearchParameters;
+export default SearchParameterds;

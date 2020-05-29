@@ -12,18 +12,16 @@ const convertToUrlSearchParams = (searchParams) => {
 };
 
 exports.handler = async function (event, context) {
-  const asstrResultUrl = new URL('https://www.asstr.org/search/results.php');
-  const searchParams = JSON.parse(event.body);
-  const searchParamsEncoded = convertToUrlSearchParams(searchParams);
-  asstrResultUrl.search = searchParamsEncoded;
+  const asstrSearchUrl = 'https://www.asstr.org/search/submitSearch.php';
+  const searchParameters = JSON.parse(event.body);
+  const searchParamsEncoded = convertToUrlSearchParams(searchParameters);
 
-  console.log('asstr-search searchParams', searchParamsEncoded);
+  console.log('asstr-search-init searchParams', searchParamsEncoded);
   try {
-    const response = await fetch(asstrResultUrl, {
-      method: 'GET',
-      headers: {
-        'Content-Type': 'application/x-www-form-urlencoded',
-      },
+    const response = await fetch(asstrSearchUrl, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+      body: searchParamsEncoded,
     });
     if (!response.ok) {
       // NOT res.status >= 200 && res.status < 300
@@ -31,7 +29,7 @@ exports.handler = async function (event, context) {
     }
     return {
       statusCode: 200,
-      body: await response.text(),
+      body: response.url,
     };
   } catch (err) {
     console.log(err); // output to netlify function log
